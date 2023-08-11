@@ -1,0 +1,31 @@
+purpose: recharge deep thinking nerve cells.
+         train fast reflex nerve and muscle cells.
+         passively watch lectures - the goal is conceptual overview
+         passively watch wildlife documentaries - the goal is to see how the rest of nature works
+
+NB: don't bother with stories. see story_theory.txt
+
+priority:
+    in progress:
+        The HISTORY of MATHEMATICS. Documentary: https://www.youtube.com/watch?v=2WcbPcGrQZU
+        A Brief History of Time Audio Book | Stephen Hawking |: https://www.youtube.com/watch?v=PguCUdB5gqU
+        What is it like to be a Pure mathematician?: https://www.youtube.com/watch?v=f6YiFdUbrV0
+        Understanding Linguistics | Noam Chomsky | Talks at Google: https://m.youtube.com/watch?v=Y3PwG4UoJ0Y
+        The Human Brain: 10_biology/library/MIT 913 The Human Brain Spring 2019
+        ACM Turing Interviews: https://www.youtube.com/watch?v=vUJ01nRE7r0&list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&index=16
+    
+    ongoing:
+        F1 TV | 2023 Season: https://f1tv.formula1.com/page/6603/2023-season
+        Sabbatical: https://youtube.com/@SabbaticalTommy
+        racing/todo.txt
+
+    done:   
+        Quantum Field Theory - Fermilab: https://www.youtube.com/watch?v=FBeALt3rxEA
+        Quantum Fields: The Real Building Blocks of the Universe - with David Tong: https://www.youtube.com/watch?v=zNVQfWC_evg
+        The Second World War: 1939 - 1945 | WWII Documentary: PART 1: https://www.youtube.com/watch?v=sqMmOJ0riCg&t=329s
+        The Second World War: 1939 - 1945 | WWII Documentary: PART 2: https://www.youtube.com/watch?v=tWjU5pidIME
+        The Cold War: Seven Minutes to Midnight | Documentary: https://www.youtube.com/watch?v=2336v76nEf8
+        World War One (ALL PARTS) - Epic History TV: https://www.youtube.com/watch?v=G1p6rlDCxq0
+        Noam Chomsky interview on Language and Knowledge (1977): https://www.youtube.com/watch?v=ZVXLo9gJq-U
+        The Concept of Language (Noam Chomsky): https://m.youtube.com/watch?v=hdUbIlwHRkY&pp=ygUmVGhlIENvbmNlcHQgb2YgTGFuZ3VhZ2UgKE5vYW0gQ2hvbXNreSk%3D 
+        BBC Africa History: https://www.youtube.com/watch?app=desktop&v=hdUbIlwHRkY

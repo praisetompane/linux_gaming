@@ -1,0 +1,13 @@
+pokes:
+    name            button      frames
+    jap:            1           10
+
+key lows:
+
+pressure staters:
+
+keepout moves:
+
+whiff punishment:
+
+punishers:

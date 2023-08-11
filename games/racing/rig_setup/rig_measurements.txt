@@ -1,0 +1,28 @@
+A: Pedal Front - Wheel Center: 67cm
+
+B: Wheel Center - Seat Back: 67cm
+
+C: Floor - Wheel Center: 83cm(incl caster wheels)[diff by 13 from default pic guidelines{
+
+D: Wheel Top - Shoulder: wrist on wheel when arm fully stretched out
+   Last seat rail slot.
+
+E: Wheel - Face: 40cm 
+
+F: Screen(Dash) - Wheel Center: 30cm
+
+G: Screen(Dash) - Eye: 80cm +-2cm
+
+===============================
+monitor VESA mounts
+   center monitor:
+      left to center: 20.8cm
+      right to center: 20.8cm
+
+   left monitor:
+      left to center: 25.4cm
+
+   right monitor:
+      left to center: 25.4cm
+
+

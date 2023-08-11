@@ -1,0 +1,41 @@
+# monitor dimensions
+    
+    DELL S2422HG 23.6\" 1920x1080 at 165Hz FHD Curved Gaming Monitor
+    
+    # Height with stand (Compressed ~ Extended)
+    # 350.7 mm ~ 450.7mm
+    # 3.81 inches ~ 17.75 inches
+
+    # Width
+    #533.55 mm
+    # 21.01
+
+    # Depth
+    # 189.9 mm
+    # 7.48 inches
+
+    # Height without stand
+    # 323.2 mm
+    # 12.73
+
+    # Width without stand
+    # 533.5 mm
+    # 21.01
+
+    # Depth without stand
+    # 88.7mm
+    # 3.49
+
+    # Weight (panel only - for VESA mount)
+    # 3.37 Kg
+    # 7.41 lb
+
+    # Weight (with packaging)
+    # 7.4 Kg
+    # 16.28 lb
+
+# AMS2 
+# excellent guide: https://www.youtube.com/watch?v=4dBTb5fhT3s
+# width = actual physical width
+# height = ((533.55÷10)÷1920)×1080=30.0121875
+#             (width in milimeters/10)/pixel width * pixel height

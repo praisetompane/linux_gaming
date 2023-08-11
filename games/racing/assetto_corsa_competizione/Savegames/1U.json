@@ -1,0 +1,4057 @@
+{
+	"cars": [
+		{
+			"carId": 0,
+			"driverIndex": 0,
+			"oldPhysicsTimeMs": 0,
+			"strategy":
+			{
+				"pitstopReason": "None",
+				"isStartTimeSet": false,
+				"startTimeMs": 0,
+				"pitEntryPitlaneSessionTimeMs": 0,
+				"pitExitPitlaneSessionTime": 0,
+				"fastPosition": 0,
+				"carSetup":
+				{
+					"carName": "none",
+					"basicSetup":
+					{
+						"tyres":
+						{
+							"tyreCompound": 0,
+							"tyrePressure": []
+						},
+						"alignment":
+						{
+							"camber": [],
+							"toe": [],
+							"staticCamber": [],
+							"toeOutLinear": [],
+							"casterLF": 0,
+							"casterRF": 0,
+							"steerRatio": 0
+						},
+						"electronics":
+						{
+							"tC1": 0,
+							"tC2": 0,
+							"abs": 0,
+							"eCUMap": 0,
+							"fuelMix": 0,
+							"telemetryLaps": 0
+						},
+						"strategy":
+						{
+							"fuel": 0,
+							"nPitStops": 0,
+							"tyreSet": 0,
+							"frontBrakePadCompound": 0,
+							"rearBrakePadCompound": 0,
+							"pitStrategy": [],
+							"fuelPerLap": 0
+						}
+					},
+					"advancedSetup":
+					{
+						"mechanicalBalance":
+						{
+							"aRBFront": 0,
+							"aRBRear": 0,
+							"wheelRate": [],
+							"bumpStopRateUp": [],
+							"bumpStopRateDn": [],
+							"bumpStopWindow": [],
+							"brakeTorque": 0,
+							"brakeBias": 0
+						},
+						"dampers":
+						{
+							"bumpSlow": [],
+							"bumpFast": [],
+							"reboundSlow": [],
+							"reboundFast": []
+						},
+						"aeroBalance":
+						{
+							"rideHeight": [],
+							"rodLength": [],
+							"splitter": 0,
+							"rearWing": 0,
+							"brakeDuct": []
+						},
+						"drivetrain":
+						{
+							"preload": 0
+						}
+					},
+					"trackBopType": 0
+				},
+				"nextPitstopAtSessionTimeMs": 3900000,
+				"mandatoryPitstopNumber": -1,
+				"fuelPerLap": 2.7000000476837158,
+				"fuelPerMinute": 1.9228487014770508,
+				"lapTime": 84250,
+				"rainPitRandomizer": -0.017939388751983643,
+				"pitStopCounter": 0,
+				"driverTotalTimes": [ 0 ]
+			},
+			"pitSpeedingDetector":
+			{
+				"timeOverLimitS": 0,
+				"maxSpeedKmh": 0
+			},
+			"pitstopMFD":
+			{
+				"activePitStrategy": 0,
+				"tyreSet": 2,
+				"isDisabled": false,
+				"fuelToAdd": 0,
+				"fuelLimits":
+				{
+					"x": 0,
+					"y": 120
+				},
+				"refuellingAllowed": true,
+				"newTyreCompound": 0,
+				"tyreCompoundNames": [
+					"Dry",
+					"Wet"
+				],
+				"tyreToChange": [ false, false, false, false ],
+				"tyrePressures": [ 27.650001525878906, 27.650001525878906, 27.650001525878906, 27.650001525878906 ],
+				"tyrePressureLimits":
+				{
+					"x": 20.30000114440918,
+					"y": 35
+				},
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Ralf Bohn",
+				"driversNames": [
+					"Ralf Bohn"
+				],
+				"driversStintTotalTimeLeft": [ -1 ],
+				"hasDriversDoneAStint": [ false ],
+				"currentDriverIndex": 0,
+				"repairBody": true,
+				"repairSuspension": true,
+				"repairEngine": false,
+				"timeRequired": 0,
+				"mustServePenalty": false,
+				"servePenalty": false,
+				"changeBrakeDiscs": false,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
+				"isValidForMandatory": false,
+				"isDriverSwapRequired": false,
+				"isTyreChangeRequired": false,
+				"isRefuellingRequired": false,
+				"isPitEntryValid": false,
+				"hasPitWindowRule": false,
+				"hasDriverStintRule": false,
+				"isDriverStintCompleted": false,
+				"missingMandatoryPitstops": 255,
+				"baseMandatoryPitstops": 0
+			},
+			"fuel":
+			{
+				"startingFuelOnLastLap": 60.587287902832031,
+				"totalFuelUsedInSession": 1.3402786254882813,
+				"fuelPerSingleLap": 1.3402786254882813,
+				"fuelPerKm": 0.37634631991386414,
+				"fuelLapCount": 1
+			},
+			"tyreSets": [
+				{
+					"tyreSet": 0,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 1,
+					"wearStatus": [
+						{
+							"treadMM": [ 2.996412992477417, 2.9950094223022461, 2.9939234256744385 ],
+							"grain": 0.30925837159156799,
+							"blister": 0,
+							"marblesLevel": 0.0027684904634952545,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 2.9912538528442383, 2.9920902252197266, 2.9927234649658203 ],
+							"grain": 0.24158257246017456,
+							"blister": 0,
+							"marblesLevel": 0.0030382778495550156,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 2.9919638633728027, 2.9888916015625, 2.98659348487854 ],
+							"grain": 0.045552842319011688,
+							"blister": 0,
+							"marblesLevel": 0.0029131467454135418,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 2.9856786727905273, 2.9868068695068359, 2.9887089729309082 ],
+							"grain": 0.022424057126045227,
+							"blister": 0,
+							"marblesLevel": 0.0032352968119084835,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 2,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 3,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 4,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 5,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 6,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 7,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 8,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 9,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 10,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 11,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 12,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 13,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 14,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 15,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 16,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 17,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 18,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 19,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 20,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 21,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 22,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 23,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 24,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 25,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 26,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 27,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 28,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 29,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 30,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 31,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 32,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 33,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 34,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 35,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 36,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 37,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 38,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 39,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 40,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 41,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 42,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 43,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 44,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 45,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 46,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 47,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 48,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 49,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				}
+			],
+			"startingTyreSets": [
+				{
+					"tyreSet": 0,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 1,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 2,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 3,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 4,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 5,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 6,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 7,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 8,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 9,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 10,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 11,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 12,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 13,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 14,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 15,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 16,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 17,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 18,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 19,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 20,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 21,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 22,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 23,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 24,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 25,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 26,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 27,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 28,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 29,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 30,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 31,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 32,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 33,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 34,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 35,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 36,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 37,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 38,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 39,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 40,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 41,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 42,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 43,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 44,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 45,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 46,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 47,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 48,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				},
+				{
+					"tyreSet": 49,
+					"wearStatus": [
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						},
+						{
+							"treadMM": [ 3, 3, 3 ],
+							"grain": 0,
+							"blister": 0,
+							"marblesLevel": 0,
+							"flatSpot": 0,
+							"isCriticalState": false
+						}
+					],
+					"state": "None"
+				}
+			],
+			"currentTyreSet": 1,
+			"currentTyreCompound": 0,
+			"currentFrontBrakeCompound": 1,
+			"currentRearBrakeCompound": 1,
+			"lastSplitNpos": 0,
+			"lapCount": 1,
+			"hotlapFirstLapArmed": false,
+			"filteredTimeAhead": 0,
+			"averageRelativeSpeed": 0.008732120506465435,
+			"carSetup":
+			{
+				"carName": "porsche_991ii_gt3_r",
+				"basicSetup":
+				{
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 53, 53, 51, 51 ]
+					},
+					"alignment":
+					{
+						"camber": [ 2, 2, 0, 0 ],
+						"toe": [ 30, 30, 50, 50 ],
+						"staticCamber": [ -5.074409008026123, -5.1839261054992676, -1.058091402053833, -1.1264489889144897 ],
+						"toeOutLinear": [ -3.046368874493055e-05, -3.0357285140780732e-05, -0.0054626148194074631, -0.0054602422751486301 ],
+						"casterLF": 11,
+						"casterRF": 11,
+						"steerRatio": 4
+					},
+					"electronics":
+					{
+						"tC1": 5,
+						"tC2": 5,
+						"abs": 6,
+						"eCUMap": 7,
+						"fuelMix": 0,
+						"telemetryLaps": 0
+					},
+					"strategy":
+					{
+						"fuel": 60,
+						"nPitStops": 0,
+						"tyreSet": 0,
+						"frontBrakePadCompound": 1,
+						"rearBrakePadCompound": 1,
+						"pitStrategy": [],
+						"fuelPerLap": 2.7000000476837158
+					}
+				},
+				"advancedSetup":
+				{
+					"mechanicalBalance":
+					{
+						"aRBFront": 4,
+						"aRBRear": 4,
+						"wheelRate": [ 6, 6, 4, 4 ],
+						"bumpStopRateUp": [ 8, 8, 2, 2 ],
+						"bumpStopRateDn": [ 0, 0, 10, 10 ],
+						"bumpStopWindow": [ 0, 0, 17, 17 ],
+						"brakeTorque": 20,
+						"brakeBias": 63
+					},
+					"dampers":
+					{
+						"bumpSlow": [ 10, 10, 7, 7 ],
+						"bumpFast": [ 6, 6, 6, 6 ],
+						"reboundSlow": [ 8, 8, 14, 14 ],
+						"reboundFast": [ 12, 12, 10, 10 ]
+					},
+					"aeroBalance":
+					{
+						"rideHeight": [ 7, 11, 25, 18 ],
+						"rodLength": [ 57.994361877441406, 57.994361877441406, -40.817619323730469, -40.817619323730469 ],
+						"splitter": 0,
+						"rearWing": 9,
+						"brakeDuct": [ 4, 3 ]
+					},
+					"drivetrain":
+					{
+						"preload": 8
+					}
+				},
+				"trackBopType": 43
+			}
+		}
+	],
+	"leaderLapCountAtStart": 0,
+	"isPitlaneOpen": true
+}

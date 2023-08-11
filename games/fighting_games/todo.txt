@@ -1,0 +1,23 @@
+purpose: learn fighting games and become a good fighting game player for pleasure-as-enjoyment.
+
+play:
+    Tekken 7
+    Skull Girls
+    Virtua Fighter
+
+study:
+    Controller Guide:
+        https://www.youtube.com/watch?v=AeRfBEBJxRc&pp=ygUWVXNpbmcgQ29udHJvbGVyIFN0cmVldA%3D%3D
+
+    Ultimate Beginner Guide ~ Tekken 7: https://www.youtube.com/watch?v=K-WhR09Q6TU
+    Learning Any Character: https://www.youtube.com/watch?v=hAGOdJWeCNM
+
+watch:
+    Evo:
+        https://www.youtube.com/@evo2kvids
+
+    Bandai Namco:
+        https://www.youtube.com/@BandaiNamcoAmerica
+
+    Capcom Fighters:
+        https://www.youtube.com/@CapcomFighters#
