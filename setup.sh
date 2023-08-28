@@ -14,7 +14,7 @@ echo "done"
 
 echo "installing gnome tweaks"
     sudo apt install gnome-tweaks
-echo "done"tw
+echo "done"
 
 echo "installing lutris"
     sudo apt install lutris
@@ -33,5 +33,5 @@ echo "done"
 
 
 echo "setting up racing module"
-    ./games/racing/setup.sh 
+    ./setup_racing.sh
 echo "done" 
